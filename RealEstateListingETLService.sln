@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateListingETLService.CliApplication", "RealEstateListingETLService.CliApplication\RealEstateListingETLService.CliApplication.csproj", "{B087EA2D-548C-4C89-BBD5-9BDA5E2414E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateListingETLService.Application", "RealEstateListingETLService.Application\RealEstateListingETLService.Application.csproj", "{561EED20-65CB-4A0D-ADAC-E79EB79FB5B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateListingETLService.Infrastructure", "RealEstateListingETLService.Infrastructure\RealEstateListingETLService.Infrastructure.csproj", "{3BC9E157-7DDE-4D42-B8F3-0EA10E2B9DD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateListingETLService.Test", "RealEstateListingETLService.Test\RealEstateListingETLService.Test.csproj", "{37D4E311-1509-4425-971E-DD26559C9A16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B087EA2D-548C-4C89-BBD5-9BDA5E2414E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B087EA2D-548C-4C89-BBD5-9BDA5E2414E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B087EA2D-548C-4C89-BBD5-9BDA5E2414E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B087EA2D-548C-4C89-BBD5-9BDA5E2414E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{561EED20-65CB-4A0D-ADAC-E79EB79FB5B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{561EED20-65CB-4A0D-ADAC-E79EB79FB5B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{561EED20-65CB-4A0D-ADAC-E79EB79FB5B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{561EED20-65CB-4A0D-ADAC-E79EB79FB5B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BC9E157-7DDE-4D42-B8F3-0EA10E2B9DD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BC9E157-7DDE-4D42-B8F3-0EA10E2B9DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BC9E157-7DDE-4D42-B8F3-0EA10E2B9DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BC9E157-7DDE-4D42-B8F3-0EA10E2B9DD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37D4E311-1509-4425-971E-DD26559C9A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D4E311-1509-4425-971E-DD26559C9A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D4E311-1509-4425-971E-DD26559C9A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D4E311-1509-4425-971E-DD26559C9A16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2169B8F5-5220-429F-8916-7286399C5DFE}
+	EndGlobalSection
+EndGlobal
